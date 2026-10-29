@@ -1,0 +1,126 @@
+# ==========================================
+# 📄 Arquivos Globais e de Ajuda
+# ==========================================
+HELP.md
+
+# ==========================================
+# 🎨 UI Design, Prototipagem & Figma
+# ==========================================
+.figma/
+*.fig.backup
+
+# ==========================================
+# ⚙️ Configurações de IDEs e Editores
+# ==========================================
+# JetBrains / WebStorm / IntelliJ IDEA
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code
+.vscode/
+
+# Eclipse / Spring Tool Suite (STS)
+.settings/
+.classpath
+.project
+.metadata/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================================
+# ☕ Compilação Java, Testes (JUnit) & Builds
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Pastas de Saída de Compilação
+bin/
+build/
+out/
+target/
+.gradle/
+
+# ==========================================
+# 🌐 Frontend, Node.js & Servidores Locais
+# ==========================================
+node_modules/
+dist/
+.next/
+.nuxt/
+.angular/
+coverage/
+
+# Servidores de Preview (Live Server, Caches)
+.live-server/
+.localstorage
+
+# Logs de Gerenciadores de Pacotes
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==========================================
+# 🔑 Variáveis de Ambiente e Segredos
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ==========================================
+# 🐳 Docker e Bancos de Dados Locais
+# ==========================================
+postgres-data/
+kafka-data/
+.data/
+
+# ==========================================
+# 🔍 Qualidade de Código (Sonar)
+# ==========================================
+.sonarlint/
+.sonar/
+sonarProject.properties
+
+# ==========================================
+# 💻 Arquivos do Sistema Operacional
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+
+# ==========================================
+# 📝 Logs e Arquivos Temporários
+# ==========================================
+*.log
+*.tmp
+*.swp
+*.bak
